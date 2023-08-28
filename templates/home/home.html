@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+{% load static %}
+{% load tz %}
+{% now "Y" as current_year %}
+<html lang="en" class="h-100"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Discover the unmatched versatility of xPloreFlex, proudly presented by SinceHence">
+    <meta name="author" content="SinceHence Ltd">
+    <meta name="generator" content="Django">
+    <title>XploreFlex&copy; By SinceHence</title>
+                                        <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="{% static 'favicon.png' %}">    
+    <link rel="canonical" href="{{ request.build_absolute_uri }}">
+    <link rel="stylesheet" href="{% static 'assets/css/style.css' %}"> 
+
+
+
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+ 
+  </head>
+  <body class="d-flex h-100 text-center text-white" data-new-gr-c-s-check-loaded="14.1121.0" data-gr-ext-installed="">
+    
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+  <header class="mb-auto">
+    
+  </header>
+
+  <main class="px-3 container">
+   
+        <p class="h3 my-3">
+            Discover the unmatched versatility of 
+        </p>
+        <img src="{% static 'logo.png' %}" alt="XploreFlex&copy;" title="XploreFlex&copy;" width="30%" height="auto">
+        <p class="h3 my-3">proudly presented by </p>
+        <a aria-current="page" href="https://sincehence.co.uk" target="_blank">
+            <img src="{% static 'sincehence_logo.png' %}" alt="XploreFlex&copy;" title="XploreFlex&copy;" width="35%" height="auto">
+        </a>  
+        <p class="h5 my-3">
+            Elevate your experience with our premium collection of robust products, meticulously designed to redefine excellence. Explore a world where innovation meets durability, as we introduce a range that reflects the essence of sophistication and performance. Unleash the power of XploreFlex – where quality and style converge, exclusively from SinceHence.
+        </p>
+    
+  </main>
+
+  <footer class="mt-auto text-white-50">
+    <p class="copyright-text">&copy; SinceHence {{ current_year }}</p>
+  </footer>
+</div>
+
+
+    
+  
+
+</body></html>
